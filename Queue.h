@@ -19,7 +19,7 @@ struct Node{
         this->value = 0;
         this->next = nullptr;
         this->prev = nullptr;
-        delete this;
+        delete [] this;
     }
 };
 
